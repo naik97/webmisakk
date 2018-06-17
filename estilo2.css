@@ -1,0 +1,416 @@
+.main{
+	max-width: 1370px;
+	background: white;
+	margin-top: 167px;
+    margin: auto;
+    border-radius: 8px;
+
+}
+/* contenido slider */
+.slider-config{
+	width: 100%;
+    text-align: right;
+	position: relative;
+	margin: auto;
+	overflow: hidden;
+	box-shadow: -1px 1px 18px 2px rgba(0, 0, 0, 0.25);
+
+    z-index: 1;
+    
+}
+.slider{
+	width: 100%;
+    height: 550px;
+    float: right;
+    overflow: hidden;
+    
+}
+.slider ul{
+	width: 400%;
+	display: flex;
+	padding: 0;
+	animation: cambio 20s infinite alternate;
+}
+.slider ul li{
+	width: 100%;
+	list-style: none;
+}
+.slider ul li img{
+	width: 100%;
+	height: 550px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.slider h1{
+	margin-top: -300px;
+    margin-left: 780px;
+    font-family: naikt;
+	font-size: 45px;
+	text-align: left;
+    color: #ffffff;
+    position: relative;
+}
+.slider p{
+	
+	margin-top: 3px;
+    margin-left: 788px;
+	font-family: naikt;
+	font-size: 35px;
+	text-align: left;
+	color: #ffffff;
+    
+    position:relative;
+  
+}
+
+
+input[type="button"]{
+	padding: 8px 10px;
+	font-size: 14px;
+	margin-top:2px;
+	margin-right:400px;
+    background-color: #000000;
+	color:#FFbf00;
+	border-style: none;
+	cursor: pointer;
+}
+
+@font-face{
+	font-family: naik;
+	src:url(fuente/Nunito-BoldItalic.ttf);
+}
+
+
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+.body-inicio{
+	width: 100%;
+	text-align: center;
+	display: flex;
+	margin: auto;
+}
+.tours1{
+	max-width: 1400px;
+	width: 100%;
+	margin: auto;
+	padding-top: 30px;
+}
+.tours1{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.tours1 figure{
+	width: 410px;
+	height: 370px;
+	position: relative;
+	overflow: hidden;
+	margin: 15px;
+    box-shadow: 0px 0px 9px 2px black;
+	
+}
+.tours1 figure img{
+    width: 100%;
+}
+figure:hover p{
+	opacity: 1;
+}
+
+figure p{
+	width: 410px;
+	height: 190px;
+}
+ figure p{
+	position: absolute;
+	text-align: justify;
+	top: 86%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	background: rgba(0,0,0,0.5);
+	padding: 35px;
+    opacity: 0;
+	transition: all 600ms cubic-bezier(1,0,0,1) ;
+	font-family: naikt;
+}
+
+
+
+.body02{
+	width: 100%;
+	padding-top: 28px;
+	text-align: center;
+	display: flex;
+}
+.body02 p{
+   width: 45%;
+   margin-left: 30px;
+   font-size:20px;
+   text-align: justify;
+   padding-top: 58px;
+   font-family: naikt;
+	
+}
+.body02 img{
+	
+	width: 55%;
+	width: 675px;
+	height: 505px;
+	margin-right: 34px;
+    padding-top: 48px;
+    padding-left: 65px;
+    overflow: hidden;
+    object-fit: cover;
+}
+.botonm{
+	width: 94px;
+	height: 50px;
+	font-size: 20px;
+	font-family: tahoma;
+	border-style: none;
+	background: #FFFF00;
+	margin-top: 34px;
+
+	cursor: pointer;
+
+
+}
+.botonm:hover{
+	opacity: 0.90;
+	opacity: .50;
+    color: black;
+}
+.contenedor-galeria {
+    width: 96%;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+.contenedor-galeria ul {
+    width: 100%;
+}
+
+.contenedor-galeria li {
+    position: relative;
+    display: block;
+    width: 160px;
+    float: left;
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s;
+}
+
+.contenedor-galeria ul:hover li {
+    width: 100px;
+    filter: brightness(50%);
+}
+
+.contenedor-galeria ul li:hover {
+    width: 575px;
+    filter: brightness(100%);
+}
+
+.contenedor-galeria li img {
+    display: block;
+    width: 950px;
+    height: 500px;
+    object-fit: cover;
+    
+}
+
+.body03{
+	width: 100%;
+	
+}
+.body2{
+	width: 100%;
+	padding-top: 25px;
+	margin-top: 4px;
+	margin-bottom: 54px;
+	
+}
+.body2 h3{
+	font-size: 21px;
+	text-align: left;
+	padding-left: 25px;
+	font-family: naikt;
+}
+@font-face{
+    font-family: naikt;
+    src:url(fuente/EncodeSansSemiExpanded-Medium.ttf);
+}
+.body2 p{
+	width: 95%;
+	font-size: 18px;
+	text-align: left;
+	padding-left: 35px;
+	padding-top: 10px;
+    font-family: naikt;
+	display: flex;
+
+}
+
+.boton{
+	width: 130px;
+    border-radius: 50%;
+    background: yellow;
+    color: black;
+    border-style: none;
+    box-shadow: -1px 1px 18px 2px rgba(0, 0, 0, 0.25);
+    font-size:25px;
+    text-align: center;
+    margin-left: 23px;
+    margin-top: -64px;
+    text-decoration: none;
+    padding: 35px;
+    cursor: pointer;
+}
+.boton a{
+  color:red;
+  text-decoration:none;
+  padding:5px 5px 5px 0;
+}
+
+.boton:hover{
+	opacity: 0.40;
+	opacity: .50;
+    color: black;
+    
+   
+}
+
+.testimonio{
+	width: 100%;
+	max-width: 1370px;
+	text-align: center;
+	padding-top: 10px;
+    position: relative;
+	background-image: url(imagenes/imag4.jpg ); 
+	background-position: center;
+	margin: auto;
+}
+
+.capa{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.h2{
+	margin-top: 10px;
+	position: relative;
+	font-size: 25px;
+	font-weight: 100;
+	font-family: naikt;
+	color: white;
+}
+.parrafo1{
+	width: 100%;
+	max-width: 600px;
+	margin: auto;
+	margin-top: 10px;
+	font-size: 17px;
+    position: relative;
+    color: #c6c6c6;
+	font-weight: 100;
+	font-family: naikt;
+}
+.container-testimonial{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 50px;
+    position: relative;
+}
+
+.testimonial{
+	width: 340px;
+	margin: 20px;
+	background: #fff; 
+	padding:20px;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: 0px 0px 40px 1px black;
+}
+
+.foto-perfil1,
+.foto-perfil2,
+.foto-perfil3{
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background-size: cover;
+	border-radius: 50%;
+	position: relative;
+	top: -60px;
+	box-shadow: 0px 0px 30px -6px black;
+	list-style: none;
+}
+
+.foto-perfil1{
+	background-image: 
+	url(imagenes/user1.jpg);
+	background-position: center 0;
+}
+.foto-perfil2{
+    background-image: 
+	url(imagenes/user2.jpg);
+	background-position: center 0;
+
+}
+.foto-perfil3{
+	background-image: 
+	url(imagenes/user3.jpg);
+	background-size: 200px;
+	background-position:  -100px -1px;
+}
+
+.nombres {
+	list-style: none;
+	margin-top: -40px;
+	font-family: naikt;
+	
+	
+}
+.testimonial h2{
+	font-size: 19px;
+}
+.testimonial h4{
+	margin-top: 2px;
+	color: #444444;  
+	list-style: none;
+	font-family: naikt;
+	font-size: 15px;
+}
+.testimonial p{
+	margin-top: 10px;
+	color: #7e7e7e;
+	font-family: naikt;
+	font-size: 14px;
+	text-align: justify;
+}
+.container-redes{
+	list-style: none;
+	margin-top: 10px;
+}
+.container-redes label{
+	font-size: 40px;
+}

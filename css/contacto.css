@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+body{
+    margin:0px;
+
+}
+header{
+    width:100%;
+    background:black;
+    height: 70px;
+    float:left;
+
+
+}
+.cabecera{
+    width: 100%;
+    max-width: 1350px;
+    margin: auto;
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+.logo{
+	width: 66px;
+	height: 64px;
+	overflow: hidden;
+	margin-left: 45px;
+	margin-top: 3px;
+}
+
+
+
+nav{
+	width: 100%;
+	height: 10px;
+	text-align: center;
+    margin-top: -40px;
+    padding-left: 430px;
+}
+
+nav ul li{
+	display: inline;
+    
+}
+
+nav ul li a{
+	width: 100%;
+    min-width: 1006px;
+    color:white;
+	font-size: 16px;
+	text-decoration: none;
+    text-transform: uppercase;
+	padding-left: 33px;
+	letter-spacing: 2px;
+	font-family: naikt;
+    padding:27px;
+    padding-bottom: 23px;
+}
+
+nav ul li a:hover{
+    color: white;
+    color: black;
+    background-color: #FFBF00;
+    
+}
+
+.redes{
+	width: 15%;
+	height: 10px;
+    float: right;
+	margin: auto;
+}
+.redes  img{
+	width: 18px;
+	height: 18px;
+    margin-top: -10px;
+    margin-right: 15px;
+    float: right;   
+
+}
+.body1{
+	width: 100%;
+    padding-top: 50px;
+    color: #999;
+
+}
+.contac h1{
+	width: 100%;
+    text-align: center;
+    color:rgba(0,0,0,0.3);
+    font-size: 67px;
+    padding-top: 50px;
+    z-index: 1;
+}
+.contac p{
+	width: 100%;
+    text-align: center;
+    color:rgba(0,0,0,0.7);
+    padding-top: 5px;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+
+
+
+
+.formulario-config{
+	width: 100%;
+	margin: auto;
+	background-color: rgba(0,0,0,0.5);
+	color:#999;
+	
+
+}
+
+.formulario{
+	
+	float: left;
+	width: 50%;
+	margin: auto;
+	color:#999;
+	padding-top: 45px;
+}
+
+.formu-ti{
+	margin: 10px 20px;
+	color: red;
+}
+
+.caja1{
+	width: 265px;
+	height: 30px;
+	margin: 20px 20px;
+	padding: 5px;
+	font-size: 14px;
+}
+
+.caja2{
+	width: 573px;
+	height: 30px;
+	margin: 20px 20px;
+	padding: 5px;
+	font-size: 14px;
+}
+.caja3{
+	width: 573px;
+	height: 100px;
+	margin: 20px 20px;
+	padding: 10px;
+	font-size: 14px;
+}
+
+.botonn{
+	
+	width: 16%;
+	height: 33px;
+	margin: 1px 20px;
+	text-align: center;
+    color: black;
+    font-size: 15px;
+    position: relative;
+    margin-bottom: 20px;
+    
+}
+.datos{
+	padding-top: 50px;
+	float: right;
+	width: 25%;
+	margin:auto;
+	color: #999;
+}
+
+.datos-contacto{
+	list-style: none;
+	text-align: center;
+
+}
+.datos-contacto li{
+	color: black;
+	padding-bottom: 5px;
+}
+
+.datos-contacto li i{
+	color: red;
+	font-size: 0px;
+}
+iframe{
+	width: 100%;
+	height: 360px;
+
+}
+.row{
+    margin-top:7px;
+    display: flex;
+    list-style: none;
+}
+.row img{
+    width: 18px;
+    height: 18px;
+    
+}
+.row h3{
+
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: -2px;
+    margin-left: 5px;
+    
+}
+
+.container-footer{
+   width: 100%;
+   background: #000009;
+   
+}
+.footer-p{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.copy{
+   list-style: none;
+   color: #c7c7c7;
+}
+.copy {
+    text-decoration: none;
+    font-weight: 100;
+    font-family: naikt;
+    font-size: 11px;
+   
+}
+.info{
+    list-style: none;
+}
+.info {
+    text-decoration-line: none;
+    color: #c7c7c7;
+    font-family: naikt;
+    font-weight: 100;
+    font-size: 11px;
+}
+
+

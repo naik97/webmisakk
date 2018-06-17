@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Misak Tours</title>
+        <meta name="description" content="Somos Misak tours te invitamos a  una fascinante experiencia recorriendo la diversidad de los ecosistemas de Silvia y Guambia Cauca." /> 
+        <meta name="keywords" content="paramos sagrados,lagunas sagradas, artesanias,cultura,gastronomía."/>
+        <meta name="robots" content="index,follow"/>
+        <link rel="canonical" href="https://naik97.github.io/webmisak/"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <link rel="icon" href="imagenes/logo.png" sizes="16x16" /> 
+        <link rel="stylesheet" href="estilo.css">
+	      <link rel="stylesheet" href="estilo2.css">
+	      <link rel="stylesheet" href="js/jquery.js">
+	      <link rel="stylesheet" href="css/contacto.css">
+	      <script src="http://code.jquery.com/jquery-latest.js"></script>
+        <script type="text/javascript" src="js/efecto.js"></script>
+        <script type ="text/javascript" src="js/jquery.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+        <script>
+          if (annyang){
+               annyang.setLanguage('es-CO');
+               var commands={
+                    'hola': ()=>{
+                      alert("bienvenido!!!");
+                    },
+                    'nombre *value':(value)=>{
+                      $("#nombre").val(value.toLowerCase());
+                    },
+                    'email *value':(value)=>{
+                       $("#email").val(value
+                        .toLowerCase()
+                        .replece('arroba','@'));
+                    }
+               }
+          };
+           // Add our commands to annyang
+          annyang.addCommands(commands);
+
+          // Start listening.
+          annyang.start();
+          
+        </script>
+	  </head>
+<body>
+   <header>
+   	  <section class="cabecera">
+   	  	  <article class="logo">
+   	  		  <a href="index.html"><img src="imagenes/logo.png" alt=""></a>
+   	  	   </article>
+
+   	  	     <nav>
+   	  	  	   <ul>
+   	  	  	 	  <li><a href="index.html">INICIO</a></li>
+   	  	  	 	  <li><a href="qsomos.html">QUIENES SOMOS</a></li>
+   	  	  	 	  <li><a href="tours.html">TOURS</a></li>
+   	  	  	    <li><a href="contacto.html">CONTACTO</a></li>
+   	  	  	   </ul>
+   	  	     </nav>
+   	  	   <article class="redes"> 
+   	  	  	  <ul>
+                 <li>
+                   <a href="https://plus.google.com/u/0/106786643477572506180" target="blank"><img class="google" src="redes/google.png" alt="" ></a>
+                   <a href="https://twitter.com/naik_ts" target="blank"><img src="redes/twitter.png" alt=""></a>
+                   <a href="https://web.facebook.com/naikder.tombesanchez" target="blank"><img src="redes/facebook.png" alt="" ></a>
+                   <a href="chatbot/chatbot.html" target="blank" ><img class="chatbot" src="redes/chat.png" alt=""> </a>
+                 </li>
+              </ul>  
+                  
+   	  	  </article>
+   	  </section>
+  </header>
+  
+  <section class="main"> 
+     <article class="body1">
+
+        <article class="contac">
+           <h1> MISAK TOURS</h1>
+            <p> Agencia de turismo del cabildo de wuampia</p>
+        </article>
+      
+
+
+     <section class="formulario-config">
+           <article class="formulario">
+             <form action="correo.php" method="post">
+               <input type="text" name ="nombre" placeholder="Nombre"  class="caja1">
+               <input type="email" name="email" placeholder="E-mail"  class="caja1" required >
+               <input type="text" name="asunto" class="caja2" placeholder="Asunto">
+               
+               <textarea name="mensaje" placeholder="Mensaje" class="caja3"></textarea>
+                 <input type="submit" value="enviar" class="botonn">
+             </form>    
+          </article>
+
+         <article class="datos">
+            <ul class="datos-contacto">
+              <li><img src="redes/direccion.png" alt="" width="50"></li>
+              <li><h4>direcion</h4>silvia cauca</li>
+              <li><img src="redes/phone.png" alt="" width="50"></li>
+              <li><h4>telefono</h4>3227132433</li>
+              <li><img src="redes/email.png" alt="" width="50"></li>
+              <li><h4>correo</h4>misak@gmail.com</li>
+
+            </ul>
+           </article>
+
+          <article class="datos">
+             <ul class="datos-contacto">
+               <li><a href="https://twitter.com/naik_ts" target="blank"><img src="redes/twitter2.png" alt="" width="50"></a></li>
+               <li><h4>twitter</h4>@misakturistica</li>
+               <li> <a href="https://web.facebook.com/naikder.tombesanchez" target="blank"><img src="redes/facebook.ico" alt="" width="50"></a></li>
+               <li><h4>facebook</h4>misakturistica</li>
+               <li><img src="redes/instagram2.png" alt="" width="50"></li>
+               <li><h4>instagram</h4>misakturistica</li>
+
+             </ul>
+         </article>
+
+ 
+     </section>
+
+      <article>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255069.9022085747!2d-76.37228591993338!3d2.676085565960726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3aa4995e7fe5f9%3A0xfdddbea9ee77a6aa!2sGuambia%2C+Silvia%2C+Cauca!5e0!3m2!1ses!2sco!4v1524464883882"  style="border:0" allowfullscreen></iframe>
+       </article>
+
+    </article>
+ </section>   
+
+ <footer>
+    <section class="container-todo">
+      <article class="container">
+        <ul class="colum1">
+         <li>
+          <h2>Mas informacion de la compañia</h2>
+          <p>visita laguna ñimbe<br>visita laguna piendamo <br>visita hogar del oso de anteojos<br>visita cerro los tres jóvenes</p>visita piscícola santa clara
+         </li>      
+        </ul>
+
+        <ul class="colum2">
+          <li>
+            <h2>Redes sociales</h2>
+          </li>
+             <li class="row">
+                <a href="https://web.facebook.com/naikder.tombesanchez" target="blank"><img src="redes/facebook.ico" alt="" ></a>
+                 <h3>Síguenos en facebook</h3>
+              </li>
+
+              <li class="row">
+                <a href="https://twitter.com/naik_ts" target="blank"><img src="redes/twitter2.png" alt=""></a>
+                 <h3>Síguenos en twitter</h3>
+              </li>
+              
+              <li class="row">
+                <a href="https://plus.google.com/u/0/106786643477572506180" target="blank"><img class="google" src="redes/google2.png" alt="" ></a>
+                 <h3>Síguenos en google plus</h3>
+              </li>  
+        </ul> 
+        
+        <ul class= "colum3">
+          <li>
+            <h2>Somos misak tours</h2>
+               <p> Un equipo comunitario que ofrece servicios turisticos, gastronomico y culural del municipio y de la cumunidad guambiana y sus al rededores.<br> Conocemos la region, estamos comprometidos con el medio ambiente y entendemos que la vida de nuestros visitantes es sagrada.</p>
+          </li>          
+        </ul>
+      </article>
+      
+    </section>
+      <article class="container-footer">
+           <ul class="footer-p">
+               <li class="copy">
+                    © 2018 todos los derechos reservados
+               </li>     
+               <li class="info">
+                  Privacidad y política | 
+                  Terminos y condiciones
+                </li>
+            </ul>      
+      </article>
+  </footer>
+
+
+</body>
+</html>

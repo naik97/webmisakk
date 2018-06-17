@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+    margin:0px;
+
+}
+header{
+    width:100%;
+    background:black;
+    height: 70px;
+    float:left;
+}
+.cabecera{
+    width: 100%;
+    max-width: 1350px;
+    margin: auto;
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+.logo{
+	width: 66px;
+    max-width: 129px;
+	height: 64px;
+	overflow: hidden;
+	margin-left: 45px;
+	margin-top: 3px;
+}
+
+nav{
+	width: 100%;
+	height: 10px;
+	text-align: center;
+    margin-top: -45px;
+    padding-left: 420px;
+}
+
+nav ul li{
+	display: inline;
+    
+}
+
+nav ul li a{
+	width: 100%;
+    min-width: 1006px;
+    color:white;
+	font-size: 17px;
+	text-decoration: none;
+    text-transform: uppercase;
+	padding-left: 63px;
+	letter-spacing: 2px;
+	font-family: naikt;
+    padding:26px;
+}
+
+nav ul li a:hover{
+    color: white;
+    color: black;
+    background-color: #FFBF00;
+    
+}
+
+.redes{
+	width: 15%;
+	height: 10px;
+    float: right;
+	margin: auto;
+}
+.redes  img{
+	width: 18px;
+	height: 18px;
+    margin-top: -10px;
+    margin-right: 15px;
+    float: right;   
+
+}
+.redes .google{
+    width: 23px;
+    height: 23px;
+    margin-top: -12px;
+}
+.redes .chatbot{
+    width: 22px;
+    height: 22px;
+    margin-top: -11px;
+    
+}
+
+.header2 {
+    position: fixed;
+    height:40px;
+    background: black;
+    z-index: 10;
+}
+.header2 .logo {
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+    margin-left: 45px;
+    margin-top: 3px;
+    position: relative;
+}
+.header2 .logo img{
+    width: 34px;
+   
+}
+.header2 nav {
+    line-height:0;
+    width: 100%;
+    height: 10px;
+    text-align: right;
+    margin-top: -18px;
+    padding-right: 155px;
+
+}
+.header2 nav ul li a{
+    width: 100%;
+    min-width: 1006px;
+    color:white;
+    font-weight: 100;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: naikt;
+    background: black;
+    padding:11px;
+    border-radius: 1%;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.header2 .redes{
+    margin-top: -10px;
+}
+.header2 nav ul li a:hover{
+    color: white;
+    color: black;
+    background-color: #FFBF00;
+    
+    
+}
+
+@media screen and (max-width: 950px) {
+    header .logo,
+    header nav {
+        width:100%;
+        text-align:center; /*Centramos el menu y el logotipo*/
+        line-height:100px;
+    }
+ 
+    .header2 {
+        height:auto;
+    }
+ 
+    .header2 .logo,
+    .header2 nav {
+        line-height:50px;
+    }
+}
+@font-face{
+    font-family: naik;
+    src:url(fuente/Nunito-BoldItalic.ttf);
+}
+footer{
+    width: 100%;
+    background: black;
+    color: #FFBF00;;
+   
+}
+.container-todo{
+    width: 100%;
+    height: 240px;
+    max-width: 1300px;
+    margin: auto;
+    padding: 40px;
+    font-family: arial;
+   
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.colum1{
+    max-width: 400px;
+    list-style: none;
+}
+.colum1 h2{
+    font-size: 18px;
+    font-family: naikt;
+    font-weight: 100;
+}
+.colum1 p{
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 8px;
+}
+
+.colum2{
+    max-width: 400px;
+    list-style: none;
+}
+.colum2  li h2{
+    font-size: 18px;
+    list-style: none;
+    font-weight: 100;
+    font-family: naikt;
+}
+.row{
+    margin-top: 7px;
+    display: flex;
+    list-style: none;
+}
+.row img{
+    width: 18px;
+    height: 18px;
+    
+}
+.row h3{
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: -22px;
+    margin-left: 25px;
+    
+}
+
+.colum3{
+    max-width: 400px;
+    float: right;
+    list-style: none;
+}
+.colum3 h2{
+    font-size: 18px;
+    font-weight: 100;
+}
+.colum3 p{
+    font-size: 15px;
+    margin-top: 8px;
+    text-align: justify ;
+}
+
+.container-footer{
+   width: 100%;
+   background: #000009;
+   
+}
+.footer-p{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.copy{
+   list-style: none;
+   color: #c7c7c7;
+}
+.copy {
+    text-decoration: none;
+    font-weight: 100;
+    font-family: naikt;
+    font-size: 11px;
+   
+}
+.infor{
+    list-style: none;
+}
+.infor{
+    text-decoration-line: none;
+    color: #c7c7c7;
+    font-family: naikt;
+    font-weight: 100;
+    font-size: 11px;   
+}

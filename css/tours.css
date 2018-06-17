@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	list-style: none;
+}
+body{
+    margin:0px;
+
+}
+header{
+    width:100%;
+    background:black;
+    height: 70px;
+    float:left;
+
+
+}
+.cabecera{
+    width: 100%;
+    max-width: 1350px;
+    margin: auto;
+}
+.logo img{
+	width: 100%;
+	height: 100%;
+}
+.logo{
+	width: 66px;
+	height: 64px;
+	overflow: hidden;
+	margin-left: 45px;
+	margin-top: 3px;
+}
+
+
+
+nav{
+	width: 100%;
+	height: 10px;
+	text-align: center;
+    margin-top: -45px;
+    padding-left: 420px;
+}
+
+nav ul li{
+	display: inline;
+    
+}
+
+nav ul li a{
+	width: 100%;
+    min-width: 1006px;
+    color:white;
+	font-size: 17px;
+	text-decoration: none;
+    text-transform: uppercase;
+	padding-left: 63px;
+	letter-spacing: 2px;
+	font-family: naikt;
+    padding:26px;
+    
+}
+
+nav ul li a:hover{
+    color: white;
+    color: black;
+}
+
+.redes{
+	width: 15%;
+	height: 10px;
+    float: right;
+	margin: auto;
+}
+.redes  img{
+	width: 18px;
+	height: 18px;
+    margin-top: -10px;
+    margin-right: 15px;
+    float: right;   
+
+}
+.body02{
+	width: 100%;
+	text-align: center;
+	padding-top: 40px;
+	background: #F2F2F2;
+	margin: auto;
+
+}
+.body02 h1{
+    font-size: 30px;
+    font-family: naikt;
+}
+.body02 h2{
+	width: 100%;
+	font-size: 25px;
+	font-family: naik;
+	font-weight: 100;
+	padding-right: 183px;
+	padding-left:  183px;
+	padding-top: 15px;
+}
+.tourss{
+	max-width: 1400px;
+	width: 100%;
+	margin: auto;
+	padding-top: 33px;
+	padding-bottom: 45px;
+	background:#F2F2F2;
+}
+.tourss{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+}
+figure{
+	width: 410px;
+	height: 380px;
+	position: relative;
+	overflow: hidden;
+	margin: 15px;
+}
+figure:hover p{
+	opacity: 0.9;
+}
+figure img{
+	width: 110%;
+	height: 380px;
+	background:rgba(0, 0, 0,0.3);
+	object-fit: cover;
+}
+figure p{
+	width: 410px;
+	height: 190px;
+}
+figure p{
+	position: absolute;
+	text-align: left;
+	top: 86%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	background: rgba(0,0,0,0.5);
+	padding: 50px;
+    opacity: 0;
+	transition: all 600ms cubic-bezier(1,0,0,1) ;
+}
+.contactar{
+   width: 100%;
+   height: 260px;
+   max-width: 1370px;
+   display: flex;
+   padding-top: 50px;
+   padding-bottom: 20px;
+   background-color: #F2F5A9;
+   margin: auto;
+
+}
+.contactar1 h2{
+	text-decoration: none;
+	margin-left: 190px;
+	font-family: naikt;
+	font-size: 30px;
+}
+.contactar1 p{
+	text-decoration: none;
+	margin-left: 190px;
+	font-family: naikt;
+	font-size: 25px;
+
+}
+.contactar2 h2{
+	margin-left: 190px;
+	font-family: naikt;
+	font-size: 30px;
+	
+}
+.contactar2 li p{
+    margin-left: 190px;
+	font-family: naikt;
+	font-size: 25px;
+
+}
+
+
+footer{
+    width: 100%;
+    background: black;
+    color: #FFBF00;
+   
+}
+.container-todo{
+    width: 100%;
+    height: 240px;
+    max-width: 1300px;
+    margin: auto;
+    padding: 40px;
+    font-family: arial;
+   
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.colum1{
+    max-width: 400px;
+    list-style: none;
+}
+
+.colum1 h2{
+    font-size: 18px;
+    font-family: naikt;
+    font-weight: 100;
+}
+.colum1 p{
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 8px;
+}
+
+.colum2{
+    max-width: 400px;
+    list-style: none;
+}
+.colum2  li h2{
+    font-size: 18px;
+    list-style: none;
+    font-weight: 100;
+    font-family: naikt;
+}
+.row{
+    margin-top:7px;
+    display: flex;
+    list-style: none;
+}
+.row img{
+    width: 18px;
+    height: 18px;
+    
+}
+.row h3{
+
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: -2px;
+    margin-left: 5px;
+    
+}
+
+.colum3{
+    max-width: 400px;
+    float: right;
+    list-style: none;
+}
+.colum3 h2{
+    font-size: 18px;
+    font-weight: 100;
+}
+.colum3 p{
+    font-size: 15px;
+    margin-top: 8px;
+    text-align: justify ;
+}
+
+.container-footer{
+   width: 100%;
+   background: #000009;
+   
+}
+.footer-p{
+    max-width: 1300px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.copy{
+   list-style: none;
+   color: #c7c7c7;
+}
+.copy {
+    text-decoration: none;
+    font-weight: 100;
+    font-family: naikt;
+    font-size: 12px;
+}
+.info {
+    list-style: none;
+}
+.info {
+    text-decoration-line: none;
+    color: #c7c7c7;
+    font-family: naikt;
+    font-weight: 100;
+    font-size: 12px;
+}
+@font-face{
+    font-family: naikt;
+    src:url(fuente/EncodeSansSemiExpanded-Medium.ttf);
+}

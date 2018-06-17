@@ -1,0 +1,6 @@
+# robots.txt for https://naik97.github.io/webmisak/
+
+
+User-agent: *
+Disallow: /backend
+
